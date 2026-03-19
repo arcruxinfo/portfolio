@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boopathi | Senior Product Design Manager</title>
+    <meta name="description"
+        content="Product Design Manager with 14+ years of experience building scalable enterprise and consumer applications.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <nav class="navbar">
+        <div class="container flex-between">
+            <a href="index.html" class="logo outfit">BP<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Contact Hero -->
+        <section class="page-hero hero-fullscreen text-center section-padding">
+            <div class="bg-glow glow-1"></div>
+            <div class="bg-glow glow-2"></div>
+            <div class="bg-glow glow-3"></div>
+            <div class="container reveal">
+                <span class="tagline">Initialization</span>
+                <h1 class="hero-title outfit">
+                    Let's Build Something <span class="text-gradient">Extraordinary</span>
+                </h1>
+                    <div class="hero-btns flex-center" style="margin-top: 40px;">
+                        <a href="#contact-details" class="btn btn-primary">
+                            Get in Touch <i data-lucide="arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Contact Content Split -->
+        <section class="contact-details section-padding" style="padding-top: 0;">
+            <div class="container reveal bio-grid">
+
+                <!-- Contact Info Cards -->
+                <div class="contact-info-panel">
+                    <div class="contact-icon-box" style="margin-bottom: 24px;">
+                        <i data-lucide="mail"></i>
+                    </div>
+                    <span class="tagline-pill" style="margin-bottom: 24px;">Design Strategy & Leadership</span>
+                    <h2 class="section-title outfit mb-32">Ready to scale your product?</h2>
+                    <p class="mb-48" style="color: hsl(var(--text-muted)); max-width: 450px;">
+                        If you are looking for a design leader to solve complex workflows and drive business impact, I would love to connect.
+                    </p>
+
+                    <div class="contact-footer-row" style="flex-direction: column; align-items: flex-start; border: none; padding-top: 0; gap: 24px;">
+                        <a href="tel:+918072181654" class="contact-item">
+                            <i data-lucide="phone"></i>
+                            +91 80721 81654
+                        </a>
+                        <div class="contact-item">
+                            <i data-lucide="mail"></i>
+                            boopathiuxd@gmail.com
+                            <button class="copy-btn" title="Copy Email">
+                                <i data-lucide="copy" style="width: 14px; height: 14px; margin-left: 4px;"></i>
+                            </button>
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="map-pin"></i>
+                            Remote Worldwide
+                        </div>
+                        <div class="contact-item">
+                            <i data-lucide="share-2"></i>
+                            <div class="social-links" style="display: flex; gap: 12px; margin-left: 8px;">
+                                <a href="https://www.linkedin.com/in/boopathiraja-natarajan-a1664534/" class="social-pill" style="padding: 4px 12px; font-size: 13px;">LI</a>
+                                <a href="#" class="social-pill" style="padding: 4px 12px; font-size: 13px;">TW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-panel">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service">
+                                <option>Product Design (UI/UX)</option>
+                                <option>Design Systems</option>
+                                <option>Web Development</option>
+                                <option>Consulting</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" rows="5"
+                                placeholder="Tell me about your project, goals, and timeline..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100" style="justify-content: center;">
+                            Establish Connection
+                            <i data-lucide="send"></i>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Boopathi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
